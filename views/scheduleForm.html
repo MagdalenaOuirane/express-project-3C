@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Express HTML</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <div>
+
+
+
+
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container" style="margin:20px">
+                <a class="navbar-brand" href="/">Express HTML</a>
+
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/"> List of Terms</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron" style="width:800px; margin: 50px auto">
+
+
+
+            <form>
+                <div class="form-group" style="margin: 0 20px 15px 20px">
+                    <label for="exampleInputUser1">User Name</label>
+                    <input type="text" class="form-control" id="exampleInputUser1" aria-describedby="userHelp">
+
+                </div>
+
+                <div class="form-group" style="margin: 0 20px 15px 20px">
+                    <label for="exampleInputWeekDay1">Day of the week</label>
+                    <input type="number" class="form-control" id="exampleInputWeekDay1">
+                </div>
+
+
+                <div class="form-group" style="margin: 0 20px 15px 20px">
+                    <label for="exampleInputStart1">Start day</label>
+                    <input type="text" class="form-control" id="exampleInputStart1">
+                </div>
+                <div class="form-group" style="margin: 0 20px 15px 20px">
+                    <label for="exampleInputEnd1">End day</label>
+                    <input type="text" class="form-control" id="exampleInputEnd1">
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="margin-left:20px">Add schedule</button>
+            </form>
+
+
+
+
+
+
+            <!-- MODAL -->
+
+            <div class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Confirmation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p> Your schedule has been successfully created.</p>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
